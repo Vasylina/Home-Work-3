@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="../normalize.css">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="body">
+
+  <header class="header">
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li class="button"><a class="navbar-link" href="../index.html">Головне меню</a></li>
+        <li class="button"><a class="navbar-link" href="articles.html">Статті</a></li>
+        <li class="button"><a class="navbar-link" href="catalog.html">Каталог</a></li>
+        <li class="button"><a class="navbar-link" href="contacts.html">Контакти</a></li>
+        <li class="button"><a class="navbar-link" href="gallery.html">Галерея</a></li>
+        <li class="button"><a class="navbar-link" href="page-nav.html">Навігація</a></li>
+        <li class="button"><a class="navbar-link" href="registration.html">Реєстрація</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Реєстрація</h1>
+      <hr>
+
+      <form action="https://tests.fomenko.top/echo/index.php" method="get">
+
+        <fieldset>
+          <legend>Основні дані</legend>
+
+          <div>
+            <label for="firstname">Ім'я</label>
+            <input id="firstname" name="firstname" type="text" placeholder="Ім'я">
+          </div>
+
+          <div>
+            <label for="lastname">Прізвище</label>
+            <input id="lastname" name="lastname" type="text" placeholder="Прізвище">
+          </div>
+
+          <div>
+            <label for="secondname">По-батькові</label>
+            <input id="secondname" name="secondname" type="text" placeholder="По-батькові">
+          </div>
+
+          <div>
+            <label for="password">Пароль</label>
+            <input id="password" name="password" type="password" placeholder="Пароль">
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="Email" type="email" placeholder="Електронна пошта">
+          </div>
+
+          <div>
+            <label for="date">Дата народження</label>
+            <input type="date" id="date" name="date">
+          </div>
+
+          <div>
+            <input type="radio" id="female">
+            <label for="female">Жіночий</label><br>
+            <input type="radio" id="male">
+            <label for="male">Чоловічий</label><br>
+          </div>
+
+          <p>Оберіть кухню</p>
+          <div>
+            <input type="checkbox" id="kit-ua" name="kit">
+            <label for="kit-ua">Українська</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="kit" id="kit-en">
+            <label for="kit-en">Англійська</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="kit" id="kit-de">
+            <label for="kit-de">Німецька</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="kit" id="kit-fr">
+            <label for="kit-fr">Французька</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="kit" id="kit-it">
+            <label for="kit-it">Італійська</label>
+          </div>
+
+          <div>
+            <label for="txt">Коментарі</label>
+            <textarea name="txt" id="txt" cols="50" rows="15" placeholder="Напишіть коментар"></textarea>
+          </div>
+
+          <div>
+            <input type="submit" value="Увійти">
+            <input type="reset" value="Очистити">
+          </div>
+
+        </fieldset>
+
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer footer1">@IVANICHENKO.CORP</p>
+  </footer>
+
+</body>
+
+</html>

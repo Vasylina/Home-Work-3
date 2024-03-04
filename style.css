@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #4c3ecd;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+a {
+   text-decoration: none;
+}
+
+main {
+  margin: 50px 50px;
+} 
+
+
+/* body */
+.body {
+  background-color: lightcyan;
+  
+}
+
+.container {
+  
+  width: 100%;
+  max-width: 1280px;
+  font-size: 20px;
+  margin: auto;
+  align-content: center;
+  padding: 0 20px;
+  background-color: rgb(140, 201, 251);
+}
+
+
+/* navbar */
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  opacity: 1;
+}
+
+.navbar {
+  background-color: #84cbe9c6;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-list {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+  padding: 30px;
+}
+
+.button {
+  appearance: none;
+  background-color: #51a2e9f1;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  cursor: zoom-in;
+  display: inline-block;
+  font-size: 14px;
+  padding: 6px 16px;
+  position: relative;
+}
+
+.button:hover {
+  transition-duration: 0,4s;
+  background-color: rgb(72, 72, 219);
+  box-shadow: rgb(132, 154, 225) 2px 2px 2px 2px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgba(23, 23, 85, 0.932);
+}
+
+
+/* main content */
+.main-pfoto {
+  width: 700px;
+  height: 400px;
+  float: left;
+  display: flex;
+  margin: 20px;
+ } 
+
+/* gallery */
+.gallery-background-colour{
+  background-image: url(img/Texture5.jpg);
+}
+
+.gallery {
+  display: flex;
+}
+
+.gallery-pfoto {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+}
+
+.content-pfoto {
+  border: 15px rgb(208, 243, 255) solid;
+}
+
+.content-pfoto:hover {
+  border: 15px transparent solid;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #84cbe9c6;;
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer1 {
+  padding: 15px;
+  font-size: 15px;
+}
+
+
+/* articles */
+ .succes::first-letter {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+  margin: 10px;
+  } 
+
+ .font::first-letter {
+  font-size: 50px;
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: green;
+  margin: 10px;
+ } 
+
+ .accent::first-letter {
+  font-size: 60px;
+  font-weight: lighter;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: red;
+  margin: 10px;
+ }
+
+ .article {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .article-link {
+  border-bottom: 3px red solid;
+  color: red;
+ }
+
+ .article-link-read {
+  color: rgb(247, 82, 82);
+ }
+
+ .article-link-comments {
+  color: rgb(87, 70, 44);
+ }
+
+.article-link-comments:hover {
+  color: red;
+}
+
+/* catalog */
+
+
+.catalog-list {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 20px;
+  margin: 20px;
+  background-color: lightcyan;
+ 
+}
+
+.catalog-box {
+  margin: auto;
+}
+
+.catalog-underwear {
+  border: 2px black solid;
+  height: 250px;
+  width: 150px;
+  margin: 30px;
+  background-color: rgb(140, 201, 251);
+}
+
+.catalog-hat {
+  border: 2px black solid;
+  height: 250px;
+  width: 150px;
+  margin: 30px;
+  background-color: rgb(140, 201, 251);
+  }
+
+.catalog-shoes {
+  border: 2px black solid;
+  height: 250px;
+  width: 150px;
+  margin: 30px;
+  background-color: rgb(140, 201, 251);
+  }
