@@ -71,7 +71,7 @@ main {
 }
 
 .button:hover {
-  transition-duration: 0, 4s;
+  transition-duration: 0.4s;
   background-color: rgb(72, 72, 219);
   box-shadow: rgb(132, 154, 225) 2px 2px 2px 2px;
 }
